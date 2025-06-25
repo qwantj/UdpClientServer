@@ -2,20 +2,24 @@
 #define UDPSERVER_H
 
 #include <QObject>
-#include <QUdpSocket>
+#include <QUdpSocket>  // Добавляем заголовок для QUdpSocket
+#include <QHostAddress> // Добавляем заголовок для QHostAddress
 
 class UdpServer : public QObject
 {
     Q_OBJECT
 public:
     explicit UdpServer(QObject *parent = nullptr);
-    void start(quint16 port);
+    ~UdpServer();
 
-private slots:
-    void readPendingDatagrams();
+    bool startServer(quint16 port);
+    void stopServer();
 
 private:
     QUdpSocket *socket;
+
+private slots:
+    void readPendingDatagrams();
 };
 
 #endif // UDPSERVER_H
