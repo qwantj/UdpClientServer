@@ -300,6 +300,7 @@ Makefile: ..\..\UdpClientServer.pro C:\qt\6.9.1\msvc2022_64\mkspecs\win32-msvc\q
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\resolve_config.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\exclusive_builds_post.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\default_post.prf \
+		C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\console.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\qml_debug.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\precompile_header.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\warn_on.prf \
@@ -308,27 +309,20 @@ Makefile: ..\..\UdpClientServer.pro C:\qt\6.9.1\msvc2022_64\mkspecs\win32-msvc\q
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\resources_functions.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\resources.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\moc.prf \
-		C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\opengl.prf \
-		C:\qt\6.9.1\msvc2022_64\mkspecs\features\uic.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\qmake_use.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\file_copies.prf \
-		C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\windows.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\testcase_targets.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\exceptions.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\yacc.prf \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\lex.prf \
 		..\..\UdpClientServer.pro \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6Widgets.prl \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6Gui.prl \
+		C:\qt\6.9.1\msvc2022_64\lib\Qt6Qml.prl \
 		C:\qt\6.9.1\msvc2022_64\lib\Qt6Network.prl \
 		C:\qt\6.9.1\msvc2022_64\lib\Qt6Core.prl \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6EntryPoint.prl \
 		C:\qt\6.9.1\msvc2022_64\mkspecs\features\build_pass.prf \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6Widgetsd.prl \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6Guid.prl \
+		C:\qt\6.9.1\msvc2022_64\lib\Qt6Qmld.prl \
 		C:\qt\6.9.1\msvc2022_64\lib\Qt6Networkd.prl \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6Cored.prl \
-		C:\qt\6.9.1\msvc2022_64\lib\Qt6EntryPointd.prl
+		C:\qt\6.9.1\msvc2022_64\lib\Qt6Cored.prl
 	$(QMAKE) -o Makefile ..\..\UdpClientServer.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\spec_pre.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\common\windows-desktop.conf:
@@ -546,6 +540,7 @@ C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\default_pre.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\resolve_config.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\exclusive_builds_post.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\default_post.prf:
+C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\console.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\qml_debug.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\precompile_header.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\warn_on.prf:
@@ -554,27 +549,20 @@ C:\qt\6.9.1\msvc2022_64\mkspecs\features\qt.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\resources_functions.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\resources.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\moc.prf:
-C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\opengl.prf:
-C:\qt\6.9.1\msvc2022_64\mkspecs\features\uic.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\qmake_use.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\file_copies.prf:
-C:\qt\6.9.1\msvc2022_64\mkspecs\features\win32\windows.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\testcase_targets.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\exceptions.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\yacc.prf:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\lex.prf:
 ..\..\UdpClientServer.pro:
-C:\qt\6.9.1\msvc2022_64\lib\Qt6Widgets.prl:
-C:\qt\6.9.1\msvc2022_64\lib\Qt6Gui.prl:
+C:\qt\6.9.1\msvc2022_64\lib\Qt6Qml.prl:
 C:\qt\6.9.1\msvc2022_64\lib\Qt6Network.prl:
 C:\qt\6.9.1\msvc2022_64\lib\Qt6Core.prl:
-C:\qt\6.9.1\msvc2022_64\lib\Qt6EntryPoint.prl:
 C:\qt\6.9.1\msvc2022_64\mkspecs\features\build_pass.prf:
-C:\qt\6.9.1\msvc2022_64\lib\Qt6Widgetsd.prl:
-C:\qt\6.9.1\msvc2022_64\lib\Qt6Guid.prl:
+C:\qt\6.9.1\msvc2022_64\lib\Qt6Qmld.prl:
 C:\qt\6.9.1\msvc2022_64\lib\Qt6Networkd.prl:
 C:\qt\6.9.1\msvc2022_64\lib\Qt6Cored.prl:
-C:\qt\6.9.1\msvc2022_64\lib\Qt6EntryPointd.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\UdpClientServer.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 

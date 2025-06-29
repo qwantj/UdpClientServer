@@ -1,11 +1,10 @@
-# Добавление модуля network в проект
-QT += core gui network
+QT += core network qml
+QT -= gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
+CONFIG += console
 CONFIG += c++17
+CONFIG -= app_bundle
 
-# Остальная часть вашего .pro файла
 TARGET = UdpClientServer
 TEMPLATE = app
 

@@ -2,8 +2,8 @@
 #define UDPCLIENT_H
 
 #include <QObject>
-#include <QUdpSocket>  // Добавляем заголовок для QUdpSocket
-#include <QHostAddress> // Добавляем заголовок для QHostAddress
+#include <QUdpSocket>
+#include <QHostAddress>
 
 class UdpClient : public QObject
 {
@@ -12,8 +12,9 @@ public:
     explicit UdpClient(QObject *parent = nullptr);
     ~UdpClient();
 
-    // Исправляем опечатку в имени метода (было sendCakulation)
     void sendCalculation(const QString &message);
+    void setServerAddress(const QString &address);
+    void setServerPort(quint16 port);
 
 private:
     QUdpSocket *socket;

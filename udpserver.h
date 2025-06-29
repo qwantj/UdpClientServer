@@ -2,8 +2,8 @@
 #define UDPSERVER_H
 
 #include <QObject>
-#include <QUdpSocket>  // Добавляем заголовок для QUdpSocket
-#include <QHostAddress> // Добавляем заголовок для QHostAddress
+#include <QUdpSocket>
+#include <QHostAddress>
 
 class UdpServer : public QObject
 {
